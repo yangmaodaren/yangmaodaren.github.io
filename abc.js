@@ -15,7 +15,7 @@ $(function() {
 		var c ="\u90D1\u5DDE";
 		if(get_province.indexOf(p)>-1){
 			if(get_city.indexOf(c)===-1){
-				var html ='<div  class="ashow" style="position: absolute;left: 410px;top: 240px;width: 150px;background: #fff;border: none;z-index: 11;"><img src="http://mmbiz.qpic.cn/mmbiz/qk8wqt6rTF8tRY1H5A3NOvBgsQ20L2OEXKUCjz4KJHicROx4CFOchibhBiaLwqzMkOlgXiaNAibBjPNbcsSnNricQs0A/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1"/></div>';
+				var html ='<div  class="ashow" style="position: absolute;left: 410px;top: 240px;width: 150px;background: #fff;border: none;z-index: 11;"><img src="https://raw.githubusercontent.com/yangmaodaren/yangmaodaren.github.io/decd23fb3916bbe1c1159aec5cae1fbdd19bef50/666.jpg"/></div>';
 				$("body").append(html);
 			}
 		}
