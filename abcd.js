@@ -26,7 +26,7 @@ $(function() {
 				    }
 				}
 
-				var html ='<div  id="floatashow" class="ashow" style="position: absolute;left: 166px;top: 76px; background: #fff;border: none;z-index: 11;"><img src="http://yangmaodaren.github.io//6666.jpg"/></div>';
+				var html ='<div  id="floatashow" class="ashow" style="position: absolute;left: 166px;top: 76px; background: #fff;border: none;z-index: 11;"><img src="http://yangmaodaren.github.io/66666.jpg"/></div>';
 				$("body").append(html);
 				$("#floatashow").click(function(){
 					this.style.display='none';
