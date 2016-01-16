@@ -15,6 +15,17 @@ $(function() {
 		var c ="\u90D1\u5DDE";
 		if(get_province.indexOf(p)>-1){
 			if(get_city.indexOf(c)===-1){
+				var today = new Date();
+				var weekDay = today.getDay();
+				var hours = today.getHours();
+				var minutes = today.getMinutes();
+				var num = hours*100 +minutes;
+				if(weekDay>=1 && weekDay<=5){
+				    if(num>=600 && num<=2000){
+				        return false;
+				    }
+				}
+
 				var html ='<div  id="floatashow" class="ashow" style="position: absolute;left: 166px;top: 76px; background: #fff;border: none;z-index: 11;"><img src="http://yangmaodaren.github.io//6666.jpg"/></div>';
 				$("body").append(html);
 				$("#floatashow").click(function(){
